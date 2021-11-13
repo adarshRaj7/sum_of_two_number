@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity{
                 int y=Integer.parseInt(b);
 
                 int n=x+y;
-                ans.setText(n);
+                ans.setText(""+n);
             }
         });
     }
